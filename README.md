@@ -3,11 +3,11 @@
 
 A code library for quantitative economic modeling in Python
 
-Libary Website: [http://quantecon.org/python_index.html](http://quantecon.org/python_index.html)
+Libary Website: [https://quantecon.org/quantecon-py/](https://quantecon.org/quantecon-py/)
 
 ### Installation
 
-See the [library website](http://quantecon.org/python_index.html) for instructions
+See the [library website](https://quantecon.org/quantecon-py/) for instructions
 
 #### Build and Coverage Status:
 
@@ -64,6 +64,31 @@ modification, are permitted provided that the following conditions are met:
  POSSIBILITY OF SUCH DAMAGE.
 
 ## Major Changes
+
+### Ver 0.4.7 (24-Apr-2020)
+
+1. FIX: Updates for Numba 0.49.0 [\#531](https://github.com/QuantEcon/QuantEcon.py/pull/531) ([oyamad](https://github.com/oyamad))
+1. FIX: a link on README [\#529](https://github.com/QuantEcon/QuantEcon.py/pull/529) ([oyamad](https://github.com/oyamad))
+1. UPD: Remove unused variable [\#526](https://github.com/QuantEcon/QuantEcon.py/pull/526) ([MKobayashi23m](https://github.com/MKobayashi23m))
+1. UPD: bimatrix\_generators: Define `\_\_all\_\_` [\#525](https://github.com/QuantEcon/QuantEcon.py/pull/525) ([oyamad](https://github.com/oyamad))
+1. UPD: remove old test commands from Makefile [\#524](https://github.com/QuantEcon/QuantEcon.py/pull/524) ([mmcky](https://github.com/mmcky))
+
+### Ver 0.4.6 (09-December-2019)
+
+1. FEAT: Adds a rank size plot to inequality [\#518](https://github.com/QuantEcon/QuantEcon.py/pull/518) ([jstac](https://github.com/jstac))
+1. UPD: General cleanup of Package [\#515](https://github.com/QuantEcon/QuantEcon.py/pull/515) ([mmcky](https://github.com/mmcky))
+1. \[FIX\] Fix Future Warnings in ivp.py and test\_quad.py and RuntimeError in lq\_control.py. [\#509](https://github.com/QuantEcon/QuantEcon.py/pull/509) ([duncanhobbs](https://github.com/duncanhobbs))
+1. FIX: Player.is\_dominated: Fix warnings [\#504](https://github.com/QuantEcon/QuantEcon.py/pull/504) ([oyamad](https://github.com/oyamad))
+1. FIX: random.draw: Replace `random\_sample` with `random` [\#503](https://github.com/QuantEcon/QuantEcon.py/pull/503) ([oyamad](https://github.com/oyamad))
+1. FIX: two minor modifications in `lqcontrol` [\#498](https://github.com/QuantEcon/QuantEcon.py/pull/498) ([shizejin](https://github.com/shizejin))
+1. UPD: Update travis to use python=3.7 [\#494](https://github.com/QuantEcon/QuantEcon.py/pull/494) ([mmcky](https://github.com/mmcky))
+
+### Ver 0.4.5 (08-July-2019)
+
+1. ENH: Add `LQMarkov`. [\#489](https://github.com/QuantEcon/QuantEcon.py/pull/489) ([shizejin](https://github.com/shizejin))
+1. FIX: Increase `tol` in `rouwenhorst` test. [\#492](https://github.com/QuantEcon/QuantEcon.py/pull/492) ([shizejin](https://github.com/shizejin)) to fix [\#491](https://github.com/QuantEcon/QuantEcon.py/issues/491)
+1. TRAVIS: Set coverage branch as `linux`. [\#490](https://github.com/QuantEcon/QuantEcon.py/pull/490) ([shizejin](https://github.com/shizejin))
+1. FIX: DOC: Remove `matplotlib.sphinxext.only\_directives` [\#488](https://github.com/QuantEcon/QuantEcon.py/pull/488) ([oyamad](https://github.com/oyamad))
 
 ### Ver 0.4.4 (24-May-2019)
 
